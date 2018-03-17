@@ -2,10 +2,10 @@ import React from 'react';
 import ColorSelectorCircle from './ColorSelectorCiricle'
 
 
-const ColorSelectorBoard = () => {
+const ColorSelectorBoard = (props) => {
     return (
         <div className="ColorSelector">
-            <ColorSelectorCircle />
+            <ColorSelectorCircle color={props.color}/>
         </div>
     )
 }
