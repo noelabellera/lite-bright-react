@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import CirclesBoard from './components/CirclesBoard';
-import ColorSelector from './components/ColorSelector';
+import ColorSelectorBoard from './components/ColorSelectorBoard';
 import './App.css';
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
         <Header />
         <div className="Page">
           <CirclesBoard />
-          <ColorSelector />
+          <ColorSelectorBoard />
         </div>
       </div>
     );
