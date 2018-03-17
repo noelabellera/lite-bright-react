@@ -1,9 +1,21 @@
 import React from 'react';
+import ColorSelectorCircle from './ColorSelectorCiricle'
 
 const ColorSelectorColumn = (props) => {
     return(
         <div>
-            this is the color selector column
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
+            <ColorSelectorCircle />
         </div>
     )
 };

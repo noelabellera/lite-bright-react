@@ -1,11 +1,18 @@
 import React from 'react';
-import ColorSelectorCircle from './ColorSelectorCiricle'
+import ColorSelectorColumn from './ColorSelectorColumn'
+
 
 
 const ColorSelectorBoard = (props) => {
     return (
         <div className="ColorSelector">
-            <ColorSelectorCircle color={props.color}/>
+            <ColorSelectorColumn />
+            <ColorSelectorColumn />
+            <ColorSelectorColumn />
+            <ColorSelectorColumn />
+            <ColorSelectorColumn />
+            <ColorSelectorColumn />
+            <ColorSelectorColumn />
         </div>
     )
 }
