@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import CirclesBoard from './components/CirclesBoard';
 import ColorSelectorBoard from './components/ColorSelectorBoard';
+import colors from './seeds';
 import './App.css';
 
 class App extends Component {
   constructor() {
     super()
     this.state = {
-      color: '#007ACC'
+      colors
     }
   }
   render() {
