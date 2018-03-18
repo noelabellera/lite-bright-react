@@ -80,3 +80,8 @@ body {
   cursor: pointer;
   border: 1px solid lightgrey;
 }
+
+.About {
+  text-align: center;
+  margin: 0 auto;
+}
