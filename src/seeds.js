@@ -16,4 +16,4 @@ const colors = [
 ]
 
 
-export default answers;
+export default colors;
