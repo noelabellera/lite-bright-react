@@ -6,13 +6,13 @@ body {
 
 .Header {
   background-color: #333333;
-  height: 100px;
+  height: 140px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: 'Rammetto One', cursive;
   font-size: 50px;
-
+  padding: 15px;
 }
 
 
@@ -84,4 +84,18 @@ body {
 .About {
   text-align: center;
   margin: 0 auto;
+}
+
+.Link {
+  color: tomato;
+  text-decoration: none;
+  margin: 0 auto;
+  align-content: center;
+}
+
+
+
+.Link:visited {
+  color: tomato;
+  text-decoration: none;
 }
