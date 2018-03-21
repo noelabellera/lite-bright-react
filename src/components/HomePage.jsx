@@ -8,7 +8,8 @@ const HomePage = (props) => {
         <div>
             <div className="Page">
                 <CirclesBoard />
-                <ColorSelectorBoard />
+                <ColorSelectorBoard colors={props.colors}
+                                    handleColorSelect={props.handleColorSelect} />
             </div>
         </div>
     )

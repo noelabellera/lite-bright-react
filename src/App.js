@@ -15,6 +15,10 @@ class App extends Component {
       colors
     }
   }
+
+  handleColorSelect = () => {
+    console.log('Color Selected');
+  }
   render() {
     return (
       <div className="App">
@@ -27,7 +31,8 @@ class App extends Component {
             <About />
           } />
            <Route exact path='/' render={() => 
-            <HomePage />
+            <HomePage colors={this.state.colors}
+                      handleColorSelect={this.handleColorSelect} />
           } />
         </Switch>
       </div>

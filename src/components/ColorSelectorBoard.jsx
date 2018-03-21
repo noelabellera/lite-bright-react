@@ -6,7 +6,7 @@ import ColorSelectorColumn from './ColorSelectorColumn'
 const ColorSelectorBoard = (props) => {
     return (
         <div className="ColorSelector">
-            <ColorSelectorColumn />
+            <ColorSelectorColumn handleColorSelect={props.handleColorSelect} />
             <ColorSelectorColumn />
             <ColorSelectorColumn />
             <ColorSelectorColumn />

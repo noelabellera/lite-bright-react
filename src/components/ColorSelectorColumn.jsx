@@ -4,7 +4,7 @@ import ColorSelectorCircle from './ColorSelectorCiricle'
 const ColorSelectorColumn = (props) => {
     return(
         <div>
-            <ColorSelectorCircle />
+            <ColorSelectorCircle handleColorSelect={props.handleColorSelect} />
             <ColorSelectorCircle />
             <ColorSelectorCircle />
             <ColorSelectorCircle />
