@@ -1,20 +1,24 @@
 import React from 'react';
-import ColorSelectorColumn from './ColorSelectorColumn'
+// import ColorSelectorColumn from './ColorSelectorColumn'
 
 
 
 const ColorSelectorBoard = (props) => {
     return (
         <div className="ColorSelector">
-            <ColorSelectorColumn handleColorSelect={props.handleColorSelect} />
-            <ColorSelectorColumn />
-            <ColorSelectorColumn />
-            <ColorSelectorColumn />
-            <ColorSelectorColumn />
-            <ColorSelectorColumn />
-            <ColorSelectorColumn />
+            {props.colors.map((color, idx) => 
+                <div
+                    onClick={() => props.handleColorSelect(idx)}
+                    className="ColorPicker-color"
+                    style={{
+                        backgroundColor: props.selColorIdx === idx ? 'white' : color,
+                        border: props.selColorIdx === idx ? `14px solid ${color}` : false
+                    }}
+                    key={color}
+                />
+            )}
         </div>
-    )
+    );
 }
 
 export default ColorSelectorBoard;

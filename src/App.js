@@ -12,8 +12,9 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      colors
-    }
+      colors,
+      selColorIdx: 0
+    };
   }
 
   handleColorSelect = () => {
@@ -32,7 +33,8 @@ class App extends Component {
           } />
            <Route exact path='/' render={() => 
             <HomePage colors={this.state.colors}
-                      handleColorSelect={this.handleColorSelect} />
+                      handleColorSelect={this.handleColorSelect}
+                      selColorIdx={this.selColorIdx} />
           } />
         </Switch>
       </div>

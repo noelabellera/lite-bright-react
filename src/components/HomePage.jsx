@@ -9,7 +9,8 @@ const HomePage = (props) => {
             <div className="Page">
                 <CirclesBoard />
                 <ColorSelectorBoard colors={props.colors}
-                                    handleColorSelect={props.handleColorSelect} />
+                                    handleColorSelect={props.handleColorSelect}
+                                    selColorIdx={props.selColorIdx} />
             </div>
         </div>
     )
