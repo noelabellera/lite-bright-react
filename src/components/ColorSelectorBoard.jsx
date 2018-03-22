@@ -1,5 +1,4 @@
 import React from 'react';
-// import ColorSelectorColumn from './ColorSelectorColumn'
 
 
 
