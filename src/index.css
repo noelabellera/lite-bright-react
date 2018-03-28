@@ -94,6 +94,17 @@ body {
   align-content: center;
 }
 
+.Links:hover {
+  transition: .2s;
+  color: white;
+}
+
+.Links {
+  color: tomato;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
 
 
 .Link:visited {
