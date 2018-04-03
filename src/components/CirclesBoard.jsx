@@ -42,11 +42,6 @@ const CirclesBoard = (props) => {
             <ColorRow1 />
             <ColorRow2 />
             <ColorRow1 />
-            <ColorRow2 />
-            <ColorRow1 />
-            <ColorRow2 />
-            <ColorRow1 />
-            <ColorRow2 />
         </div>
     )
 }

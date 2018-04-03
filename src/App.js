@@ -14,8 +14,15 @@ class App extends Component {
     super()
     this.state = {
       colors,
-      selColorIdx: 0
+      selColorIdx: 0,
+      colorBoard: [this.getColors()], 
     };
+  }
+
+  getColors() {
+    return {
+      litColors: []
+    }
   }
 
   handleColorSelect = (colorIdx) => {
