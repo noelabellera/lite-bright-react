@@ -8,9 +8,7 @@ const colors = [
     "pink",
     "dodgerblue",
     "orange",
-    "brown",
-    "teal",
-    "black",
+    "tomato",
     "grey",
     "lightgrey"
 ]
